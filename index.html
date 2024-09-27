@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chulaghar - Bangladeshi Cuisine</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#reservation">Reservation</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="overlay">
+            <h1>Welcome to Chulaghar</h1>
+            <p>Three friends, one dream: to serve the community</p>
+            <a href="#menu" class="btn btn-primary">View Menu</a>
+        </div>
+        <img src="A_beautiful_image_of_a_traditional_Bangladeshi_mea.png" alt="Bangladeshi Food">
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <h2>Our Menu</h2>
+        <div class="menu-items">
+            <div class="item">
+                <h3>Biryani</h3>
+                <p>$12.99</p>
+            </div>
+            <div class="item">
+                <h3>Hilsa Fish Curry</h3>
+                <p>$14.99</p>
+            </div>
+            <div class="item">
+                <h3>Samosas</h3>
+                <p>$4.99</p>
+            </div>
+            <div class="item">
+                <h3>Mishti Doi</h3>
+                <p>$5.99</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Three friends from different backgrounds came to the USA, united by a shared dream of owning a restaurant and serving their community. Together, they created Chulaghar—a place where every meal is a celebration of Bangladeshi flavors and friendship.</p>
+        <img src="https://via.placeholder.com/400x300" alt="About Us">
+    </section>
+
+    <!-- Reservation Section -->
+    <section id="reservation" class="reservation">
+        <h2>Make a Reservation</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date" required>
+            
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time" required>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" required>
+            
+            <button type="submit" class="btn">Reserve Now</button>
+        </form>
+        <p>Online orders coming soon!</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>1199 Liberty Avenue, Brooklyn, NY 11208</p>
+        <p>Contact: Iqbal - 347-531-4025</p>
+        <div id="map"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Chulaghar | Follow us on Social Media</p>
+        <!-- Placeholder Social Media Links -->
+        <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">Twitter</a>
+    </footer>
+</body>
+</html>
